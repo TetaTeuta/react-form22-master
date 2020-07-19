@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Documentation</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+
+  <body>
+    <div>
+      <h1>React Form</h1>
+      <p>
+        React Form is a simple form that stores user input to API and renders
+        the data from API. For more info about functionality see
+        documentation.html Backend is build with Node.js and Express, data is
+        stored to mongoDB and frontend is written in React.js. Test suits are
+        made in Jest.
+        <br />
+        React Form consists of REST API and architected database built using
+        JavaScript, Node.js, Express, and MongoDB.
+        <br />
+        The server­side of the React Form application processes user requests &
+        performs operations against the data stored in the database.
+      </p>
+
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Description</th>
+            <th>URL</th>
+            <th>HTTP method</th>
+            <th>Request body data format</th>
+            <th>Response body data format</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Get a list of all currently stored names</td>
+            <td>/api/names</td>
+            <td>GET</td>
+            <td>None</td>
+            <td>
+              JSON object holding data about all names. Example:
+              <p>
+                { "_id": "5f0dc7cdf2e9890017a07993", "firstName": "Janis",
+                "lastName": "Joplin", "email": "janis@email.com", "__v": 0 }
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>Allow users to add a their name to the list</td>
+            <td>/api/names</td>
+            <td>POST</td>
+            <td>None</td>
+            <td>
+              Confirmation message advising that user has been added
+            </td>
+          </tr>
+          <tr>
+            <td>Allow users to remove their name from the list</td>
+            <td>/api/names</td>
+            <td>DELETE</td>
+            <td>None</td>
+            <td>
+              Message advising that name has been deleted.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <body></body>
+  </body>
+</html>
