@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-form22-master/static/css/main.cd5b628a.chunk.css",
+    "main.js": "/react-form22-master/static/js/main.3b62b34a.chunk.js",
+    "main.js.map": "/react-form22-master/static/js/main.3b62b34a.chunk.js.map",
+    "runtime-main.js": "/react-form22-master/static/js/runtime-main.a109ca2c.js",
+    "runtime-main.js.map": "/react-form22-master/static/js/runtime-main.a109ca2c.js.map",
+    "static/js/2.427b7784.chunk.js": "/react-form22-master/static/js/2.427b7784.chunk.js",
+    "static/js/2.427b7784.chunk.js.map": "/react-form22-master/static/js/2.427b7784.chunk.js.map",
+    "index.html": "/react-form22-master/index.html",
+    "precache-manifest.c1e38079e9d7608028e3d81d462ba966.js": "/react-form22-master/precache-manifest.c1e38079e9d7608028e3d81d462ba966.js",
+    "service-worker.js": "/react-form22-master/service-worker.js",
+    "static/css/main.cd5b628a.chunk.css.map": "/react-form22-master/static/css/main.cd5b628a.chunk.css.map",
+    "static/js/2.427b7784.chunk.js.LICENSE.txt": "/react-form22-master/static/js/2.427b7784.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a109ca2c.js",
+    "static/js/2.427b7784.chunk.js",
+    "static/css/main.cd5b628a.chunk.css",
+    "static/js/main.3b62b34a.chunk.js"
+  ]
+}
